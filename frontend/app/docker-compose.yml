@@ -1,0 +1,9 @@
+version: '3'
+services: 
+    frontend:
+        build: 
+            context: .
+        command: npm run start
+        container_name: copy_cat_task
+        ports:
+            - "3000:3000"        
